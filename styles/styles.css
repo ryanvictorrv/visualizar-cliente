@@ -1,0 +1,12 @@
+
+:root{
+--color-1: #4b0082;
+--color-2: #424242;
+}
+.btn{
+    background-color: var(--color-1);
+    color: white;
+}
+#nv img{
+    width: 2;
+}
