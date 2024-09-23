@@ -3,10 +3,112 @@
 --color-1: #4b0082;
 --color-2: #424242;
 }
-.btn{
-    background-color: var(--color-1);
-    color: white;
+.div-1{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+body{
+    background-color: rgb(218, 218, 224);
+}
+.divpr{
+    padding: 2rem;
 }
 #nv img{
-    width: 2;
+    width: 50px;
+}
+#nv{
+    background-color: white;
+    justify-content: end;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.div-1{
+    padding:12px 2rem;
+    margin-bottom: 12px;
+}
+.div-1 span.badge{
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 3px 6px;
+    
+}
+.button{
+    justify-content: end;
+    display: flex;
+}
+.button button{
+    background-color: #4b0082;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.div-2{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 12px 2rem ;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn h2{
+    display: flex;
+    display: inline-block;
+}
+.btn button{
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tabela th,td{
+    border:1px solid black ;
+    
+}
+.tabela{
+
+}
+.t1 span{
+    color: black;
+    background-color: white;
+
+}
+.cabeçalho{
+    display: flex;
+    display: inline-block;
+}
+.cabeçalho h2{
+    margin-right: 12px;
+    display: inline;
+}
+table tr > th,
+table tr > td
+{
+  padding: 10px;
+  border: #bbb 1px solid;
+}
+.tabela .t1{
+    padding: 5px;
+    border: greenyellow solid;
+    border-radius: 2rem;
+    color: greenyellow;
+}
+.tabela .t2{
+    padding: 5px;
+    border: red solid;
+    border-radius: 2rem;
+    color: red;
+}
+.tabela .t3{
+    padding: 5px;
+    border: yellow solid;
+    border-radius: 2rem;
+    color: yellow;
 }
